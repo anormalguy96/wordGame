@@ -36,12 +36,6 @@ This is a fun and interactive web-based **Word Guessing Game** built with HTML, 
 
 ---
 
-## Screenshots
-
-(Add your screenshots here: A screenshot of the gameplay, timer, hints in action, and rules.)
-
----
-
 ## How to Run
 
 1. Clone the repository:
@@ -97,11 +91,5 @@ This is a fun and interactive web-based **Word Guessing Game** built with HTML, 
 ## Contributing
 
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
