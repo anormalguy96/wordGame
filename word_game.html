@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4552/4552900.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="word_game.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Word Game</h1>
+            <div id="scoreBox">
+                <img src="coin_logo.svg" alt="Coin Icon" class="coin-icon">
+                <span id="score">0</span>
+            </div>
+        </header>
+        <main>
+            <!-- Timer Bar -->
+            <div id="timerBar"></div>
+            
+            <!-- Game Content -->
+            <p class="clue"><b>Clue:</b> <span id="clue">Guess the word!</span></p>
+            <div id="wordBox"></div>
+            <div class="actions">
+                <button id="hintBtn"><b>Hint</b></button>
+                <button id="stopBtn"><b>Stop Timer</b></button>
+                <button id="submitBtn" disabled><b>Submit</b></button>
+                <button id="terminateBtn"><b>Terminate Game</b></button>
+                <button id="giveUpBtn"><b>Give Up</b></button>
+                <button id="rulesBtn"><b>Read the Rules</b></button>
+            </div>
+            <div id="rulesBox" class="hidden">
+                <h2>🎮 Word Game Rules 🎮</h2>
+                <ul>
+                    <li>Guess the word by filling in the blanks.</li>
+                    <li>Use hints if needed, but points will be deducted.</li>
+                    <li>Correct streaks increase your points per letter.</li>
+                    <li>Incorrect guesses reset the points per letter to 30.</li>
+                    <li>Use arrow keys to navigate between boxes.</li>
+                    <li>Pre-filled letters cannot be edited.</li>
+                    <li>Have fun!</li>
+                </ul>
+                <button id="closeRulesBtn"><b>Close Rules</b></button>
+            </div>
+            <div id="youglishModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <iframe id="youglishIframe" src="" frameborder="0"></iframe>
+                </div>
+            </div>                       
+            <div id="timer">
+                <p><b>Time Remaining:</b> <span id="time">03:00</span></p>
+            </div>
+            <p class="result" id="result"></p>
+        </main>
+        <footer>
+            <p>Made by <a href="https://github.com/anormalguy96">ANormalGuy</a></p>
+        </footer>
+    </div>
+    <script src="word_game.js"></script>
+</body>
+</html>
