@@ -40,7 +40,7 @@ This is a fun and interactive web-based **Word Guessing Game** built with HTML, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/word-game.git
+   git clone https://github.com/anormalguy96/wordGame.git
    ```
 2. Open the project directory:
    ```bash
@@ -91,5 +91,3 @@ This is a fun and interactive web-based **Word Guessing Game** built with HTML, 
 ## Contributing
 
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
-
----
