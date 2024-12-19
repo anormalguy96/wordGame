@@ -88,6 +88,12 @@ This is a fun and interactive web-based **Word Guessing Game** built with HTML, 
 
 ---
 
+## License
+
+This project is distributed under the [MIT License](LICENSE). Feel free to modify and use it for personal or commercial purposes.
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
